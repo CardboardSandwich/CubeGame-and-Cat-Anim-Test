@@ -2,11 +2,11 @@ import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
 
 kaboom();
 
-loadSound("jump", "sounds/jump.mp3")
-loadSound("BG", "sounds/birds.mp3")
+loadSound("jump", "./sounds/jump.mp3")
+loadSound("BG", "./sounds/birds.mp3")
 
-loadSprite("coin", "sprites/coin.png")
-loadSprite("cat", "sprites/spritesheet.png", {
+loadSprite("coin", "./sprites/coin.png")
+loadSprite("cat", "./sprites/spritesheet.png", {
     sliceX: 8,
     sliceY: 10,
     anims: {
