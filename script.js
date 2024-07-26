@@ -3,7 +3,7 @@ import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
 kaboom();
 
 loadSound("jump", "./sounds/jump.mp3")
-loadSound("BG", "./sounds/birds.mp3")
+loadSound("BG", "./sounds/birds-19624.mp3")
 
 loadSprite("coin", "./sprites/coin.png")
 loadSprite("cat", "./sprites/spritesheet.png", {
